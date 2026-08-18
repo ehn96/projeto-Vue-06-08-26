@@ -1,11 +1,17 @@
-<script setup></script>
+<script setup>
+import Header from "./components/sections/Header.vue";
+import Hero from "./components/sections/Hero.vue";
+import FaixaAnimada from "./components/sections/FaixaAnimada.vue";
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <Hero />
+  <FaixaAnimada />
 </template>
 
-<style scoped></style>
+<style scoped>
+.iconeWhats {
+  width: 16px;
+  height: 16px;
+}
+</style>
