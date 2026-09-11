@@ -1,12 +1,13 @@
 <script setup>
-import Header from "./components/sections/Header.vue";
-import Hero from "./components/sections/Hero.vue";
-import FaixaAnimada from "./components/sections/FaixaAnimada.vue";
+import Hero from "@/components/sections/Hero.vue";
+import FaixaAnimada from "@/components/sections/FaixaAnimada.vue";
+import Section2 from "@/components/sections/Section2.vue";
 </script>
 
 <template>
   <Hero />
   <FaixaAnimada />
+  <Section2 />
 </template>
 
 <style scoped>
