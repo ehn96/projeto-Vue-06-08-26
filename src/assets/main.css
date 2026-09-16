@@ -9,8 +9,23 @@
   body {
     font-family: var(--font-sans);
   }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 600;
+    text-overflow: nowrap;
+  }
 }
 
 :root {
   --primary: #4f44ff;
+  --cor-fundo: #000815;
 }

@@ -5,7 +5,7 @@ import Button from "@/components/base/BaseButton.vue";
 
 <template>
   <div
-    class="w-full relative flex bg-cover bg-[url(@/assets/images/hero-bg.avif)] bg-top h-200"
+    class="w-full relative flex bg-cover bg-[url(@/assets/images/hero-bg.avif)] bg-center h-200 "
   >
     <div class="flex flex-col w-full max-w-[1280px] mx-auto">
       <Header />

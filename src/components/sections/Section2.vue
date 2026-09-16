@@ -7,9 +7,9 @@ import card3 from "@/assets/images/cards/card3.avif";
 
 <template>
   <div
-    class="flex w-full h-250 bg-[url(@/assets/images/bg-secao2.avif)] bg-cover relative py-[100px]"
+    class="flex w-full h-250 bg-[url(@/assets/images/bg-secao2.avif)] bg-no-repeat relative pt-50 pb-[150px] bg-(--cor-fundo)"
   >
-    <div class="flex flex-col w-[1920px] gap-20 max-w-[1280px] mx-auto">
+    <div class="flex flex-col w-[1920px] gap-20 max-w-7xl mx-auto">
       <h2 class="mx-auto text-white text-[3rem] italic font-[400]">
         Porque ter um site nos dias de hoje?
       </h2>
